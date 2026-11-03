@@ -3,6 +3,7 @@ import flightsLayer from '../data/flights.js';
 import militaryFlightsLayer from '../data/militaryFlights.js';
 import alprCamerasLayer from '../data/alprCameras.js';
 import earthquakesLayer from '../data/earthquakes.js';
+import nisarLayer from '../data/nisar.js';
 import satellitesLayer from '../data/satellites.js';
 import rocketLaunchesLayer from '../data/rocketLaunches.js';
 import trafficLayer from '../data/traffic.js';
@@ -38,6 +39,7 @@ export function createApplicationData({
   dataManager.register(flightsLayer);
   dataManager.register(militaryFlightsLayer);
   dataManager.register(earthquakesLayer);
+  dataManager.register(nisarLayer);
   dataManager.register(alprCamerasLayer);
   dataManager.register(satellitesLayer);
   dataManager.register(rocketLaunchesLayer);

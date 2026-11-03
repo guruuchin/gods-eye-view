@@ -205,6 +205,13 @@ export const DATA_CREDITS = [
       'part of NASA’s Earth Observing System Data and Information System (EOSDIS)',
   },
   {
+    key: 'nisar',
+    html:
+      'Radar change: NASA-ISRO SAR (NISAR) mission L2 browse imagery, ' +
+      'distributed by the <a href="https://asf.alaska.edu/" target="_blank" rel="noopener">Alaska Satellite Facility DAAC</a>; ' +
+      'catalogue via <a href="https://cmr.earthdata.nasa.gov/" target="_blank" rel="noopener">NASA CMR</a> (U.S. public domain)',
+  },
+  {
     key: 'drivebc-cctv',
     html:
       'CCTV cameras &amp; frames (British Columbia): ' +

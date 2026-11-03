@@ -702,6 +702,15 @@
     ],
     "external": ["cesium"]
   },
+  "nisar": {
+    "exports": ["./layers/nisar"],
+    "modules": [
+      "src/layers/nisar/index.js",
+      "src/layers/nisar/model.js",
+      "src/layers/nisar/source.js"
+    ],
+    "external": ["cesium"]
+  },
   "fire-layer": {
     "exports": ["./layers/firms"],
     "modules": [
@@ -1098,6 +1107,7 @@
       "src/data/detectionPresentation.js",
       "src/data/detectionRenderDemand.js",
       "src/data/earthquakes.js",
+      "src/data/nisar.js",
       "src/data/fireAnchors.js",
       "src/data/firmsAdapt.js",
       "src/data/firmsHeatmap.js",
@@ -1230,6 +1240,9 @@
       "src/layers/earthquakes/index.js",
       "src/layers/earthquakes/model.js",
       "src/layers/earthquakes/source.js",
+      "src/layers/nisar/index.js",
+      "src/layers/nisar/model.js",
+      "src/layers/nisar/source.js",
       "src/layers/firms/anchors.js",
       "src/layers/firms/cards.js",
       "src/layers/firms/index.js",
